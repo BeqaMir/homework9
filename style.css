@@ -1,0 +1,385 @@
+body{
+    background-color: #F7F7F7;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 73px;
+}
+#logo{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;  
+    margin-left: 27px;
+}
+header nav ul{
+    display: flex;
+    margin-right: 127px;
+}
+header nav ul li{
+    padding-right: 40px;
+    list-style-type: none;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+header nav ul li::after{
+    content: "" ;
+    display: inline-block;
+    height: 15px;
+    width: 2px;
+    background-color: #000000;
+    margin-left: 38px;
+}
+
+header nav ul li:last-child::after{
+    display: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 1.2px;
+
+}
+.first-info h3{
+    width: 153px;
+    height: 43px;
+    letter-spacing: 9px;
+    font-size: 30px;
+    margin-top: 77px;
+    margin-left: 180px;
+}
+.first-info p{
+    width: 642px;
+    height: 97px;
+    letter-spacing: NaNpx;
+    font-size: 33px;
+    margin-left: 180px;
+    margin-top: 60px;
+
+}
+.second-info h4{
+    width: 234px;
+    height: 36px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    margin-left: 180px;
+    margin-top: 182px;
+}
+.second-info p{
+    width: 512px;
+    height: 168px;
+    letter-spacing: NaNpx;
+    font-size: 25px;
+    margin-left: 180px;
+    margin-top: 53px;
+}
+.first-container{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 90px;
+    padding: 60px;
+    box-shadow: 0px 4px 6px #00000029;
+}
+.card{
+    width: 199px;
+    height: 278px;
+    background-color: #FFFFFF;
+    margin: 60px;
+}
+.card:hover{
+    background-color: black;
+    color: #FFFFFF;
+}
+.card img{
+    width: 199px;
+    height: 199px;
+    border-radius: 50%;
+}
+.third-info h4{
+    width: 135px;
+    height: 36px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    margin-left: 180px;
+}
+.third-info p{
+    width: 651px;
+    height: 85px;
+    letter-spacing: 0px;
+    font-size: 18px;
+    margin-left: 180px;
+    margin-top: 65px;
+}
+.blue-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    width: 315px;
+    height: 147px;
+    background-color: #0865DE;
+    margin: 30px;
+}
+.box:hover{
+    background-color: green;
+}
+.top-side{
+    margin-left: 30px;
+
+}
+.bottom-side img{
+    width: 22px;
+    height: 22px;
+}
+.bottom-side h6{
+    padding-left: 12px;
+}
+.bottom-side{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.fourth-info h4{
+    width: 200px;
+    height: 36px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    margin-left: 750px;
+    margin-top: 90px;
+}
+#par1{
+    width: 540px;
+    height: 168px;
+    letter-spacing: NaNpx;
+    font-size: 25px;
+    margin-left: 750px;
+    margin-top: 60px;
+}
+#par2{
+    width: 340px;
+    height: 61px;
+    letter-spacing: 0px;font-size: 18px;
+    margin-left: 750px;
+    margin-top: 30px;
+}
+.projets{
+    letter-spacing: 1.4px;
+    font-size: 14px;
+    margin-left: 180px;
+}
+.second-container{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 90px;
+    padding: 60px;
+    box-shadow: 0px 4px 6px #00000029;
+}
+.card2{
+    width: 199px;
+    height: 278px;
+    background-color: #FFFFFF;
+    margin: 60px;
+}
+.card2:hover{
+    background-color: black;
+    color: #FFFFFF;
+}
+.card2 img{
+    width: 199px;
+    height: 199px;
+    border-radius: 50%;
+}
+#logo2{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+.third-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card3-top{
+    display: block;
+    margin-left: 30px;
+}
+.card3-top h5{
+    font-size: 13px;
+    letter-spacing: 1.3px;
+}
+#par3{
+    letter-spacing: 0px;
+    font-size: 14px;
+}
+#par4{
+    letter-spacing: 1.1px;
+    font-size: 11px;
+}
+.card3-bottom{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.card3-bottom h6{
+    font-size: 11px;
+    letter-spacing: 1.1px;
+    padding-left: 10px;
+}
+.card3{
+    width: 320px;
+    height: 461px;
+    box-shadow: 0px 4px 6px #00000029;
+    margin: 60px 30px;
+}
+.card3:hover{
+    background-color: rgb(48, 51, 41);
+    color: antiquewhite;
+}
+.card3 img{
+    width: 320px;
+    height: 276px;
+}
+.button img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+}
+.button{
+    width: 176px;
+    height: 48px; 
+    display: flex;
+    background-color: #FF7600;
+    align-items: center;
+    justify-content: center;
+    margin-left: 570px;
+    margin-top: 30px;
+}
+.button button{
+    border: none;
+    background-color: #FF7600;
+}
+.container{
+    display: flex;
+    margin-top: 90px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F7F7F7;
+    width: 65%;
+    height: 422px;
+}
+.footercol{
+    margin-top: 62px;
+    text-align: center;
+}
+.footercol ul li{
+    padding-top: 40px;
+    list-style-type: none;
+    text-align: center;
+}
+.footercol ul li a{
+    text-decoration: none;
+    color: #959595;
+    font-size: 11px;
+    letter-spacing: 0.88px;
+}
+.rightcontainer{
+    background-color: #FFFFFF;
+    width: 35%;
+    height: 420px;
+}
+.rightcontainer h4{
+    text-align: left;
+    font: normal normal bold 12px/33px Brandon Grotesque;
+    letter-spacing: 1.2px;
+    color: #111111;
+    font-size: 12px;
+    margin: 62px 109px;
+}
+.rightcontainer p{
+    text-align: left;
+    font: normal normal bold 12px/33px Brandon Grotesque;
+    letter-spacing: 0.28px;
+    color: #111111;
+    width: 300px;
+    height: 34px;
+    font-size: 14px;
+    margin: 63px 109px;
+}
+.rightcontainer h5{
+    text-align: left;
+    font: normal normal normal 11px/50px Arial;
+    letter-spacing: 0.88px;
+    color: #111111;
+    font-size: 11px;
+    margin: 33px 109px;
+}
+.mail{
+    margin-left: 109px;
+    display: flex;
+}
+.mail input{
+    width: 250px;
+    height: 37px;
+    text-align: left;
+    padding-left: 16px;
+    font: normal normal normal 11px/50px Arial;
+    letter-spacing: 0.88px;
+    color: #111111;
+}
+.mail button{
+    background-color: #0865DE;
+    width: 45px;
+    height: 37px;
+}
+.mail button a{
+    font-size: 11px;
+    color: #FFFFFF;
+}
+.bottom-foter{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 120px;
+}
+.left-footer img{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+}
+.left-footer{
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+}
+.left-footer p{
+    width: 352px;
+    height: 32px;
+    letter-spacing: 0.88px;
+    font-size: 11px;
+    padding-left: 10px;
+    color: #959595;
+}
+.right-footer{
+    margin-right: 90px;
+}
+.right-footer p{
+    width: 305px;
+    height: 26px;
+    color: #959595;
+    font-size: 12px;
+    letter-spacing: 0px;
+}
